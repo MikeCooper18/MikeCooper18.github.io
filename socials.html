@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <script src="scripts.js"></script>
+        <title>Socials</title>
+    </head>
+    <body onload="socialsHeader()">
+        <h1 class="heading" id="socialsHeader">Hello, socials page</h1>
+        <div style="text-align: center">
+            <button onclick="document.location='index.html'" class="navigationButton">Home</button>
+            <button onclick="document.location='about.html'" class="navigationButton">About</button>
+            <button onclick="document.location='education.html'" class="navigationButton">Education</button>
+            <button onclick="document.location='socials.html'" class="navigationButton">Socials</button>
+        </div>
+
+        <div class="card-deck w-75" id="socials-card-deck">
+            <div class="card">
+                <img src="twitter_logo.png" class="card-img-top card-image mx-auto" alt="Twitter Logo">
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Twitter</h5>
+                  <p class="card-text">Click the button below to go to my twitter profile.</p>
+                  <a href="https://twitter.com/MikeCooper1801" class="btn btn-primary mt-auto" target="_blank">Twitter</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="github_logo.png" class="card-img-top card-image mx-auto" alt="GitHub Logo">
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Github</h5>
+                  <p class="card-text">Click the button below to go to my GitHub profile.</p>
+                  <a href="https://github.com/MikeCooper18" class="btn btn-primary mt-auto" target="_blank">GitHub</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="youtube_logo.png" class="card-img-top card-image mx-auto" alt="YouTube Logo">
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">YouTube</h5>
+                  <p class="card-text">Click the button below to go to my YouTube profile.</p>
+                  <a href="https://www.youtube.com/channel/UCAAyOT-L-UezSw9EaDhYfng" class="btn btn-primary mt-auto" target="_blank">YouTube</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="gmail_logo.png" class="card-img-top card-image mx-auto" alt="Gmail Logo">
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Email</h5>
+                  <p class="card-text">Click the button to show my email.</p>
+                  <a href="" class="btn btn-primary mt-auto" onclick="showEmail()">Email</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

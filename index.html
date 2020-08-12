@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <script src="scripts.js"></script>
+
+        <title>Home</title>
+    </head>
+    <body onload="homepageHeader()">
+        <h1 class="heading" id="homepageHeader">Hello, homepage</h1>
+        <div style="text-align: center">
+            <button onclick="document.location='index.html'" class="navigationButton">Home</button>
+            <button onclick="document.location='about.html'" class="navigationButton">About</button>
+            <button onclick="document.location='education.html'" class="navigationButton">Education</button>
+            <button onclick="document.location='socials.html'" class="navigationButton">Socials</button>
+        </div>
+
+        <div id="introduction">
+            <p>The following site was created by Michael Cooper to the requirements of CS50x's Web track <a href="https://cs50.harvard.edu/x/2020/tracks/web/homepage/">homepage</a> task.</p>
+        </div>
+</html>

@@ -1,0 +1,91 @@
+.heading
+{
+    font-family: "Rockwell";
+    font-size: 40pt;
+    color: grey;
+    text-align: center;
+    margin-top: 35px;
+}
+
+#introduction
+{
+    font-family: "Rockwell";
+    font-size: 20pt;
+    margin-top: 15px;
+    margin-left: 15%;
+    max-width: 70%;
+}
+
+.navigationButton
+{
+    background-color: #88c7db; /* Blue */
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 48px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 15px;
+    transition-duration: 0.4s;
+    width: 15%;
+}
+
+.navigationButton:hover
+{
+    background-color: #008CBA;
+    color: white;
+}
+
+#aboutMe
+{
+    margin-top: 25px;
+    margin-left: 20%;
+    width: 60%;
+    padding: 10px;
+    min-height: 260px;
+
+    border-left: 6px solid grey;
+    background-color: lightgrey;
+}
+
+#aboutImage
+{
+    padding: 2px;
+    width: 25%;
+    float: right;
+}
+
+#aboutImageCaption
+{
+    text-align: center;
+    padding: 3px;
+    position: relative;
+    top: 200px;
+    left: 49.75%;
+}
+
+#socials-card-deck
+{
+    margin-left: 12.5%;
+    margin-top: 20px;
+}
+
+.card-image
+{
+    width: 100%;
+    height: width;
+}
+
+#educationAccordion
+{
+    margin-left: 12.5%;
+    margin-top: 20px;
+    width: 75%;
+}
+
+th, td
+{
+    padding: 7px;
+}

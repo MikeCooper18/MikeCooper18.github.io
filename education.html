@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+        <link href="styles.css" rel="stylesheet">
+        <title>Education</title>
+        <script src="scripts.js"></script>
+    </head>
+    <body onload="educationHeader()">
+        <h1 class="heading" id="educationHeader">Hello, education page</h1>
+        <div style="text-align: center">
+            <button onclick="document.location='index.html'" class="navigationButton">Home</button>
+            <button onclick="document.location='about.html'" class="navigationButton">About</button>
+            <button onclick="document.location='education.html'" class="navigationButton">Education</button>
+            <button onclick="document.location='socials.html'" class="navigationButton">Socials</button>
+        </div>
+
+        <!-- Accordion -->
+        <div class="accordion" id="educationAccordion">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  GCSEs
+                </button>
+              </h2>
+            </div>
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#educationAccordion">
+              <div class="card-body">
+                <table style="width: 25%">
+                    <tr>
+                        <th>Subject</th>
+                        <th>Grade</th>
+                    </tr>
+                    <tr>
+                        <td>Further Mathematics</td>
+                        <td>A^ (A* with distinction)</td>
+                    </tr>
+                    <tr>
+                        <td>Computer Science</td>
+                        <td>9</td>
+                    </tr>
+                    <tr>
+                        <td>Mathematics</td>
+                        <td>9</td>
+                    </tr>
+                    <tr>
+                        <td>Combined Science</td>
+                        <td>9-9</td>
+                    </tr>
+                    <tr>
+                        <td>Business Studies</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>Geography</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>English Language</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>English Literature</td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>Certificate in Financial Education</td>
+                        <td>A*</td>
+                    </tr>
+                    <tr>
+                        <td>Certificate in Digital Applications (CiDA)</td>
+                        <td>A</td>
+                    </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  A-Levels
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#educationAccordion">
+              <div class="card-body">
+                <p>I am currently moving into my 2nd year of A-Levels, which are due to be taken in 2021. Below are my predicted grades.</p>
+                <table style="width: 25%">
+                    <tr>
+                        <th>Level</th>
+                        <th>Subject</th>
+                        <th>Grade</th>
+                    </tr>
+                    <tr>
+                        <td>A-Level</td>
+                        <td>Mathematics</td>
+                        <td>A*</td>
+                    </tr>
+                    <tr>
+                        <td>A-Level</td>
+                        <td>Physics</td>
+                        <td>A*</td>
+                    </tr>
+                    <tr>
+                        <td>A-Level</td>
+                        <td>Computer Science</td>
+                        <td>A*</td>
+                    </tr>
+                    <tr>
+                        <td>AS-Level</td>
+                        <td>Further Mathematics</td>
+                        <td>A</td>
+                    </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Other
+                </button>
+              </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#educationAccordion">
+              <div class="card-body">
+                I am currently partaking in Harvard's CS50x online course taught predominantly by <a href="https://cs.harvard.edu/malan/">David J. Malan</a>.<br>
+                As a part of the CS50x course, I chose the web track taught by <a href="https://brianyu.me/">Brian Yu</a> in which the principles of web development are taught.
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Accordion End -->
+    </body>
+</html>
